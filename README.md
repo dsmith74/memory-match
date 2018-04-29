@@ -11,6 +11,7 @@ This is memory matching game. There are 24 randomly shuffled cards on the game b
 ## Running locally
 
 1. Clone Repo onto local machine
+1. Run `npm install` to download all the node_modules needed for the project
 1. Run `ng serve -o` for a dev server. This will open your browser to `http://localhost:4200/`. 
 
 Note: The app will automatically reload if you change any of the source files.
