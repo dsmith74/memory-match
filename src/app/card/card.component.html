@@ -1,0 +1,8 @@
+<mat-card [class.card]="showNumber" [class.success]="success">
+	<mat-card-content *ngIf="showNumber; else empty">
+		{{ myNumber }}
+	</mat-card-content>
+	<ng-template #empty>
+		<mat-card-content></mat-card-content>
+	</ng-template>
+</mat-card>

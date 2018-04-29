@@ -1,0 +1,23 @@
+mat-toolbar {
+    background-color: pink;
+    margin-bottom: 12px;
+}
+
+.card-container {
+    padding: 0 30px 0 30px;
+}
+
+.card-container::before , .card-container::after {
+    content: " ";
+    display: table;
+}
+
+.card-container::after {
+    clear: both;
+}
+
+app-card {
+    max-width: 100%;
+    margin: 0 12px 12px 12px;
+    float: left;
+}

@@ -1,0 +1,16 @@
+mat-card{
+    font-size: 120px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    padding: 24px 0;
+    background-color: grey;
+}
+
+.card{
+    background-color: pink;
+}
+
+.success {
+    background-color: greenyellow;
+}
